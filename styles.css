@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  margin: 20px;
+  width: 80px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+#logo:hover {
+  transform: scale(1.1);
+}
+
+button {
+  width: 60px;
+  height: 45px;
+  border-radius: 20px;
+  border-style: none;
+  font-weight: 600;
+  margin: 0px 3px 0px 3px;
+  cursor: pointer;
+}
+button {
+  color: rgb(39, 39, 39);
+  transition: transform 0.5s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+#blue {
+  background-color: powderblue;
+}
+#pink {
+  background-color: pink;
+}
+#yellow {
+  background-color: gold;
+}
+#t_shirt,
+#pants,
+#skirt {
+  background-color: beige;
+}
+
+.items {
+  width: 80vw;
+  height: 65vh;
+  border-radius: 15px;
+  padding: 22px;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+li {
+  width: 70vw;
+  height: 60vw;
+  margin: 3px;
+  padding: 3px;
+  padding-left: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+span {
+  margin-left: 20px;
+}
+
+img {
+  width: 50px;
+}
