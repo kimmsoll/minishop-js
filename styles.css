@@ -23,11 +23,9 @@ button {
   border-style: none;
   font-weight: 600;
   margin: 0px 3px 0px 3px;
-  cursor: pointer;
-}
-button {
   color: rgb(39, 39, 39);
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 button:hover {
   transform: scale(1.1);
